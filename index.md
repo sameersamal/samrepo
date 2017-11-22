@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/sameersamal/samrepo/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sameersamal/samrepo/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tracone Website</title>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<style>
+	@media screen and (min-width: 480px) {
+		body {
+			background-color: black;
+			margin:0px;
+			width:100%;
+			height:100%;
+		}
+	}
+</style>
+</head>
+<body>
+	<div class="head">
+    	<img src="tf_header.png" width="100%" />
+    </div>
+	<div class="body">
+   	  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="FlashID" width="100%" height="500" title="Flash Banner">
+   	    <param name="movie" value="sample_flash.swf" />
+   	    <param name="quality" value="high" />
+   	    <param name="wmode" value="opaque" />
+   	    <param name="swfversion" value="15.0.0.0" />
+   	    <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+   	    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+   	    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+   	    <!--[if !IE]>-->
+   	    <object type="application/x-shockwave-flash" data="sample_flash.swf" width="100%" height="500">
+   	      <!--<![endif]-->
+   	      <param name="quality" value="high" />
+   	      <param name="wmode" value="opaque" />
+   	      <param name="swfversion" value="15.0.0.0" />
+   	      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+   	      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+   	      <div>
+   	        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+   	        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+          </div>
+   	      <!--[if !IE]>-->
+        </object>
+   	    <!--<![endif]-->
+      </object>
+    </div>
+	<div class="footer">
+	   	<img src="tf_footer.png" width="100%" />
+    </div>
+	<script type="text/javascript">
+        swfobject.registerObject("FlashID");
+    </script>
+</body>
+</html>
